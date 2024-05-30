@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Messanger</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="container">
+                <div class="navbar">
+                    <ul class="header__list">
+
+
+                        <li class="header__item1"><a href="" class="header__link">
+                                <ul class="logo__list">
+                                    <img src="images/logo.png" alt="" class="logo__img">
+                                    <p class="logo__text">Ichki Ishlar Vazirligi <br> Akademiya</p>
+                                </ul>
+
+                            </a></li>
+
+
+                        <li class="header__item"><a href="" class="header__link">
+                                <p class="header__title">Kontaktlar</p>
+
+
+                            </a></li>
+
+
+                        <li class="header__item"><a href="" class="header__link">
+                                <ul class="dark-theme__list">
+                                    <svg class="dark-theme" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.875 16.5H9.45C8.85 15.15 7.575 14.25 6 14.25C3.9 14.25 2.25 15.9 2.25 18C2.25 20.1 3.9 21.75 6 21.75C6.075 21.75 6.15 21.75 6.225 21.75C6.3 21.75 6.375 21.75 6.375 21.75H10.875C12.3 21.75 13.5 20.55 13.5 19.125C13.5 17.7 12.3 16.5 10.875 16.5Z"
+                                            stroke="#394867" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 14.25C8.1 14.25 9.75 15.9 9.75 18" stroke="#394867" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M20.175 5.1H19.275C18.975 4.275 18.15 3.75 17.25 3.75C15.975 3.75 15 4.725 15 6C15 7.275 15.975 8.25 17.25 8.25C17.325 8.25 17.325 8.25 17.4 8.25C17.475 8.25 17.475 8.25 17.475 8.25H20.175C21.075 8.25 21.75 7.575 21.75 6.675C21.75 5.775 21.075 5.1 20.175 5.1Z"
+                                            stroke="#394867" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M17.25 3.75C18.525 3.75 19.5 4.725 19.5 6" stroke="#394867"
+                                            stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M13.275 20.25C18 20.025 21.75 16.125 21.75 11.325C20.625 13.5 18.375 15 15.75 15C12 15 9 12 9 8.25C9 5.625 10.5 3.375 12.675 2.25C7.725 2.325 3.75 6.3 3.75 11.25C3.75 12.45 3.975 13.575 4.425 14.625"
+                                            stroke="#394867" stroke-width="1.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                    <p class="dark-theme__text">Tungi Rejim</p>
+                                </ul>
+
+                            </a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="contacts">
+        <div class="container">
+            <div class="wrapper">
+
+
+
+
+                <div class="create-contact">
+                    <div class="create-contact__list">
+                        <li class="create-contact__item">
+                            <p class="create-contact__title">Kontakt yaratish</p>
+                        </li>
+                        <li class="create-contact__item">
+                            <div class="img__wrapper">
+                                <img src="images/ava.png" id="profile-pic" class="ava">
+                                <label for="input-file" class="change__button"><img src="images/change-ava.png"></label>
+                                <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file"
+                                    class="change">
+
+                            </div>
+                        </li>
+                    </div>
+
+                    <div class="table__wrapper">
+                        <table>
+                            <tr>
+                                <td class="td-form">
+                                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                                        <div class="form__wrapper">
+                                            <div class="item">
+                                                <img src="images/ism.png" alt="" class="ism__img">
+                                                <input type="text" name="fullName" id="fullName" placeholder="Ism"
+                                                    class="data">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/familiya.png" alt="" class="familiya__img">
+                                                <input type="text" name="empCode" id="empCode" placeholder="Familiya"
+                                                    class="data">
+                                            </div>
+                                            <div class="item">
+                                                <img src="images/tel.png" alt="" class="tel__img">
+                                                <input type="text" name="salary" id="salary" placeholder="Telefon raqam"
+                                                    class="data">
+                                            </div>
+                                            <div class="form-action-buttons">
+                                                <input type="submit" value="Qo'shish" class="add-button">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="box">
+                    <div class="contacts__container">
+                        <td>
+                            <table class="list" id="employeeList">
+                                <thead>
+                                    <tr class="crud__list">
+                                        <th class="crud__item">Ism</th>
+                                        <th class="crud__item">Familiya</th>
+                                        <th class="crud__item">Telefon raqam</th>
+                                        <th class="crud__item">Funksiyalar</th>
+                                    </tr>
+                                </thead>
+
+
+
+
+
+                                <tbody class="ttt">
+                                    <div class="contacts__box">
+                                        <ul class="contacts__list">
+                                            <li class="contacts__item">
+                                                <p class="contacts_title">Kontaktlar</p>
+                                            </li>
+                                            <li class="contacts__item">
+                                                <ul class="user__list">
+                                                    <li class="user__item">
+                                                        <p class="user__name">Jurabekov Ilyosbek</p>
+                                                    </li>
+                                                    <li class="user__item">
+                                                        <img src="images/ava.png" id="profile-pic1" class="user__img">
+                                                        <label for="input-file" class="change__button1"><img
+                                                                src="images/change-ava.png"></label>
+                                                        <input type="file" accept="image/jpeg, image/png, image/jpg"
+                                                            id="input-file" class="change">
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+                                            <div class="contacts__item">
+
+
+
+
+
+
+
+
+
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </tbody>
+
+
+
+                            </table>
+                        </td>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+@media (max-width: 768px) {
+    .logo__text {
+        display: none;
+    }
+
+    .dark-theme__text {
+        display: none;
+    }
+
+    .dark-theme__list {
+        padding: 8px;
+        width: 75px;
+        border-radius: 25px;
+    }
+
+    .dark-theme {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .logo__img {
+        width: 85px;
+        height: 85px;
+
+    }
+
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .create-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .create-contact__title {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .header__title {
+        font-size: 55px;
+        width: 260px;
+    }
+
+    .contacts {
+        margin-top: 100px;
+    }
+
+    .img__wrapper {
+        width: 600px;
+
+    }
+
+    .form__wrapper {
+        width: 600px;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .create-contact__list {
+        width: 600px;
+        font-weight: 700;
+        font-size: 45px;
+
+    }
+
+
+    .add-button {
+        width: 600px;
+        height: 50px;
+    }
+
+    .item {
+        width: 560px;
+    }
+
+    .box {
+        margin-top: 50px;
+    }
+
+    .contacts_title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 45px;
+        margin: 0 auto;
+    }
+
+    .item {
+        border: solid 3px #394867;
+        height: 50px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 20px;
+        padding-left: 5px;
+        position: relative;
+    }
+
+
+    .ism__img,
+    .familiya__img,
+    .tel__img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .item::before {
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 34px;
+        background: #394867;
+        top: 5px;
+        left: 40px;
+    }
+
+    .data::placeholder {
+        font-size: 18px;
+        font-family: Outfit;
+    }
+
+    .add-button {
+        font-size: 22px;
+        font-family: Outfit;
+    }
+
+    .user__name {
+        font-size: 28px;
+    }
+
+    .user__img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .crud__item {
+        font-size: 22px;
+    }
+
+    td, th {
+        font-size: 19px;
+        height: 40px;
+        width: 200px;
+    }
+
+    .data {
+        font-size: 22px;
+        font-family: Outfit;
+    }
+}
